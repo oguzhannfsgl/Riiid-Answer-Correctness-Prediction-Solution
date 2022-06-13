@@ -284,9 +284,6 @@ class Transformer(tf.keras.Model):
         self.final_activation = tf.keras.layers.Activation("sigmoid")
 
     def call(self, exercises, tags, responses, elapsed_times, lag_times, interval_means, training, enc_padding_mask, look_ahead_mask, dec_padding_mask):
-        """
-        inp: exercise
-        """
         interval_means = tf.expand_dims(interval_means, axis=-1)
 
         enc_output = self.encoder(exercises, tags, training, enc_padding_mask)  # (batch_size, inp_seq_len, d_model)
