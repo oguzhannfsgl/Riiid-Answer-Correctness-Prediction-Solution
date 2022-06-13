@@ -6,7 +6,7 @@ Aim of the competition is to predict whether the student will answer the next qu
 Competition link is [here](https://www.kaggle.com/competitions/riiid-test-answer-prediction).
 
 ### Work
-I did some feature engineering and converted the data into .npy file. Link to the this processed data is provided in the notebook. Sequence is padded/trimmed to 256 for each student. Dataset used in this work is explained below, but you can get more information from the competition link.
+I did some feature engineering and converted the data into .npy file. Link to the this processed data is provided in the notebook and [here](https://drive.google.com/drive/folders/1qg_xHM9Qf3kUvMBiTuiDJPRdZNXSkEva?usp=sharing). Sequence is padded/trimmed to 256 for each student. Dataset used in this work is explained below, but you can get more information from the competition link.
 
 #### Description of the data
 answers: A binary value indicates whether the student correctly answered the question or not.
