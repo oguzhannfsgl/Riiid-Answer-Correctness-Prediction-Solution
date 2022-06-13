@@ -1,0 +1,19 @@
+num_layers: 4
+d_model: 512
+num_heads: 8
+dff: 1024
+dropout: 0.1
+
+exercise_size: 13525
+part_size: 8
+response_size: 4
+elapsed_time_size: 301
+
+data_path: "/content/riiid"
+train_samples: 610515
+valid_samples: 67836
+
+epochs: 18
+warmup_steps: 12000
+batch_size: 128
+seq_len: 256
